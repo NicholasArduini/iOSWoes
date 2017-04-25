@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3672BD1E8AD4A20051362A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3672BC1E8AD4A20051362A /* AppDelegate.swift */; };
+		5D3672BF1E8AD4A20051362A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3672BE1E8AD4A20051362A /* ViewController.swift */; };
+		5D3672C21E8AD4A20051362A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3672C01E8AD4A20051362A /* Main.storyboard */; };
+		5D3672C41E8AD4A20051362A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3672C31E8AD4A20051362A /* Assets.xcassets */; };
+		5D3672C71E8AD4A20051362A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3672C51E8AD4A20051362A /* LaunchScreen.storyboard */; };
+		5DA9DE611E8B1B2800E92D7A /* Woes_Level_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9DE601E8B1B2800E92D7A /* Woes_Level_4.wav */; };
+		5DA9DE681E8B2B0500E92D7A /* Woes_Level_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9DE621E8B2B0400E92D7A /* Woes_Level_1.wav */; };
+		5DA9DE691E8B2B0500E92D7A /* Woes_Level_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9DE631E8B2B0400E92D7A /* Woes_Level_2.wav */; };
+		5DA9DE6A1E8B2B0500E92D7A /* Woes_Level_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9DE641E8B2B0400E92D7A /* Woes_Level_3.wav */; };
+		5DA9DE6B1E8B2B0500E92D7A /* Woes_Level_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9DE651E8B2B0400E92D7A /* Woes_Level_5.wav */; };
+		5DA9DE6C1E8B2B0500E92D7A /* Woes_Level_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9DE661E8B2B0400E92D7A /* Woes_Level_6.wav */; };
+		5DA9DE6D1E8B2B0500E92D7A /* Woes_With_my_woes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9DE671E8B2B0400E92D7A /* Woes_With_my_woes.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3672B91E8AD4A20051362A /* Woes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3672BC1E8AD4A20051362A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D3672BE1E8AD4A20051362A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D3672C11E8AD4A20051362A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D3672C31E8AD4A20051362A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D3672C61E8AD4A20051362A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D3672C81E8AD4A20051362A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA9DE601E8B1B2800E92D7A /* Woes_Level_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Woes_Level_4.wav; sourceTree = "<group>"; };
+		5DA9DE621E8B2B0400E92D7A /* Woes_Level_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Woes_Level_1.wav; sourceTree = "<group>"; };
+		5DA9DE631E8B2B0400E92D7A /* Woes_Level_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Woes_Level_2.wav; sourceTree = "<group>"; };
+		5DA9DE641E8B2B0400E92D7A /* Woes_Level_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Woes_Level_3.wav; sourceTree = "<group>"; };
+		5DA9DE651E8B2B0400E92D7A /* Woes_Level_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Woes_Level_5.wav; sourceTree = "<group>"; };
+		5DA9DE661E8B2B0400E92D7A /* Woes_Level_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Woes_Level_6.wav; sourceTree = "<group>"; };
+		5DA9DE671E8B2B0400E92D7A /* Woes_With_my_woes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Woes_With_my_woes.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3672B61E8AD4A20051362A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3672B01E8AD4A20051362A = {
+			isa = PBXGroup;
+			children = (
+				5D3672BB1E8AD4A20051362A /* Woes */,
+				5D3672BA1E8AD4A20051362A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D3672BA1E8AD4A20051362A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D3672B91E8AD4A20051362A /* Woes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3672BB1E8AD4A20051362A /* Woes */ = {
+			isa = PBXGroup;
+			children = (
+				5D3672BC1E8AD4A20051362A /* AppDelegate.swift */,
+				5D3672BE1E8AD4A20051362A /* ViewController.swift */,
+				5D3672C01E8AD4A20051362A /* Main.storyboard */,
+				5D3672C31E8AD4A20051362A /* Assets.xcassets */,
+				5D3672C51E8AD4A20051362A /* LaunchScreen.storyboard */,
+				5D3672C81E8AD4A20051362A /* Info.plist */,
+				5DA9DE621E8B2B0400E92D7A /* Woes_Level_1.wav */,
+				5DA9DE631E8B2B0400E92D7A /* Woes_Level_2.wav */,
+				5DA9DE641E8B2B0400E92D7A /* Woes_Level_3.wav */,
+				5DA9DE601E8B1B2800E92D7A /* Woes_Level_4.wav */,
+				5DA9DE651E8B2B0400E92D7A /* Woes_Level_5.wav */,
+				5DA9DE661E8B2B0400E92D7A /* Woes_Level_6.wav */,
+				5DA9DE671E8B2B0400E92D7A /* Woes_With_my_woes.wav */,
+			);
+			path = Woes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D3672B81E8AD4A20051362A /* Woes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3672CB1E8AD4A20051362A /* Build configuration list for PBXNativeTarget "Woes" */;
+			buildPhases = (
+				5D3672B51E8AD4A20051362A /* Sources */,
+				5D3672B61E8AD4A20051362A /* Frameworks */,
+				5D3672B71E8AD4A20051362A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Woes;
+			productName = Woes;
+			productReference = 5D3672B91E8AD4A20051362A /* Woes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3672B11E8AD4A20051362A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nicholas Arduini";
+				TargetAttributes = {
+					5D3672B81E8AD4A20051362A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UDGJ8L64CG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5D3672B41E8AD4A20051362A /* Build configuration list for PBXProject "Woes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D3672B01E8AD4A20051362A;
+			productRefGroup = 5D3672BA1E8AD4A20051362A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D3672B81E8AD4A20051362A /* Woes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3672B71E8AD4A20051362A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3672C71E8AD4A20051362A /* LaunchScreen.storyboard in Resources */,
+				5D3672C41E8AD4A20051362A /* Assets.xcassets in Resources */,
+				5DA9DE6C1E8B2B0500E92D7A /* Woes_Level_6.wav in Resources */,
+				5DA9DE611E8B1B2800E92D7A /* Woes_Level_4.wav in Resources */,
+				5DA9DE6A1E8B2B0500E92D7A /* Woes_Level_3.wav in Resources */,
+				5DA9DE691E8B2B0500E92D7A /* Woes_Level_2.wav in Resources */,
+				5DA9DE6B1E8B2B0500E92D7A /* Woes_Level_5.wav in Resources */,
+				5DA9DE6D1E8B2B0500E92D7A /* Woes_With_my_woes.wav in Resources */,
+				5D3672C21E8AD4A20051362A /* Main.storyboard in Resources */,
+				5DA9DE681E8B2B0500E92D7A /* Woes_Level_1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3672B51E8AD4A20051362A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3672BF1E8AD4A20051362A /* ViewController.swift in Sources */,
+				5D3672BD1E8AD4A20051362A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D3672C01E8AD4A20051362A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3672C11E8AD4A20051362A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D3672C51E8AD4A20051362A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3672C61E8AD4A20051362A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D3672C91E8AD4A20051362A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UDGJ8L64CG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2eeda261-87bc-4518-a8e1-0a21ce24b661";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D3672CA1E8AD4A20051362A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UDGJ8L64CG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2eeda261-87bc-4518-a8e1-0a21ce24b661";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D3672CC1E8AD4A20051362A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UDGJ8L64CG;
+				INFOPLIST_FILE = Woes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.woes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D3672CD1E8AD4A20051362A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UDGJ8L64CG;
+				INFOPLIST_FILE = Woes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.woes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5D5FE4A41E8C787A000C35B9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UDGJ8L64CG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2eeda261-87bc-4518-a8e1-0a21ce24b661";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		5D5FE4A51E8C787A000C35B9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Arduini (UDGJ8L64CG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UDGJ8L64CG;
+				INFOPLIST_FILE = Woes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholas.woes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3672B41E8AD4A20051362A /* Build configuration list for PBXProject "Woes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3672C91E8AD4A20051362A /* Debug */,
+				5D3672CA1E8AD4A20051362A /* Release */,
+				5D5FE4A41E8C787A000C35B9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3672CB1E8AD4A20051362A /* Build configuration list for PBXNativeTarget "Woes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3672CC1E8AD4A20051362A /* Debug */,
+				5D3672CD1E8AD4A20051362A /* Release */,
+				5D5FE4A51E8C787A000C35B9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3672B11E8AD4A20051362A /* Project object */;
+}

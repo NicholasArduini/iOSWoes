@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Woes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Woe Count: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdB-C1-T63">
+                                <rect key="frame" x="15" y="638" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="W3h-yh-H9S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="woeMan" translatesAutoresizingMaskIntoConstraints="NO" id="ZDo-9D-NP4">
+                                <rect key="frame" x="310" y="599" width="51" height="31"/>
+                                <color key="onTintColor" red="0.91559226633066837" green="0.83375527893011536" blue="0.58824431672845634" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="disableScreenSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="J6C-G5-urv"/>
+                                </connections>
+                            </switch>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KfU-o4-lRU">
+                                <rect key="frame" x="15" y="28" width="343" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="9fu-Oi-J0X"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Just Woe"/>
+                                    <segment title="6ix Stage Woe"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="woeTypeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="BXu-qu-oQA"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxA-am-aeA">
+                                <rect key="frame" x="115" y="304" width="145" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="keyPath">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kVY-sF-v9q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.77154821259999995" blue="0.83547806410000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ZDo-9D-NP4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4Fx-pJ-aN7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KfU-o4-lRU" secondAttribute="trailing" constant="1" id="Bff-Up-biq"/>
+                            <constraint firstItem="KfU-o4-lRU" firstAttribute="leading" secondItem="OdB-C1-T63" secondAttribute="leading" id="MPc-d9-0NS"/>
+                            <constraint firstItem="OdB-C1-T63" firstAttribute="top" secondItem="ZDo-9D-NP4" secondAttribute="bottom" constant="8" symbolic="YES" id="MVE-77-RUE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OdB-C1-T63" secondAttribute="bottom" constant="8" symbolic="YES" id="MdL-E0-lEG"/>
+                            <constraint firstItem="KfU-o4-lRU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="YEn-2a-o69"/>
+                            <constraint firstItem="KfU-o4-lRU" firstAttribute="trailing" secondItem="OdB-C1-T63" secondAttribute="trailing" id="hM5-xN-f4X"/>
+                            <constraint firstItem="KfU-o4-lRU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="xPT-jn-ZJX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="disableScreenSwitch" destination="ZDo-9D-NP4" id="aIR-4O-YEf"/>
+                        <outlet property="startButton" destination="fxA-am-aeA" id="WSE-i5-hAj"/>
+                        <outlet property="woeCountLabel" destination="OdB-C1-T63" id="LGQ-fK-0tT"/>
+                        <outlet property="woeTypeSegControl" destination="KfU-o4-lRU" id="y2j-w7-NuR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="woeMan" width="700" height="700"/>
+    </resources>
+</document>
